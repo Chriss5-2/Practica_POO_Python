@@ -1,6 +1,6 @@
 import sys
 
-main=sys.argv[1] if len(sys.argv) > 1 else print("Agregue un argumento: 'Persona', 'Dog', 'Dog_1', 'Dog_modify', 'Ejercicio_1', 'Parent_1', 'Dog_breed', 'Dog_child_1', 'Dog_child_2', 'Ejercicio_2'")
+main=sys.argv[1] if len(sys.argv) > 1 else print("Agregue un argumento: 'Persona', 'Dog', 'Dog_1', 'Dog_modify', 'Ejercicio_1', 'Parent_1', 'Dog_breed', 'Dog_child_1', 'Dog_child_2', 'Ejercicio_2' \n Ejemplo de ejecución: python POO.py Persona")
 
 class Persona:
     # Declaración de atributos de la clase
